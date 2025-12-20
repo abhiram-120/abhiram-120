@@ -30,7 +30,7 @@ rather than just writing scripts.
 ###
 
 <p align="center">
-<b>Hands-on experience with:</b><br>
+<b>Hands-on experience and learning:</b><br>
 Azure Data Factory · Databricks · PySpark · Delta Lake · Medallion Architecture
 </p>
 
