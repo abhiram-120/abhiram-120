@@ -1,60 +1,61 @@
 <h1 align="center">Hey 👋 What's up?</h1>
 
-<h3 align="center">I'm Abhiram — aspiring Data Engineering Intern</h3>
+<h3 align="center">
+I'm Abhiram — Data Engineering Intern aspirant
+</h3>
+
+<p align="center">
+I’m a final-year B.Tech student who enjoys building <b>end-to-end data pipelines</b> 
+and understanding how real companies move, clean, and trust their data.
+<br><br>
+I’m especially interested in <b>ETL design, data quality, and production-style workflows</b> 
+rather than just writing scripts.
+</p>
 
 ###
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python" height="60" alt="python logo" />
+  <!-- Core languages -->
+  <img src="https://skillicons.dev/icons?i=python" height="55" alt="python" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=sql" height="60" alt="sql logo" />
+  <img src="https://skillicons.dev/icons?i=sql" height="55" alt="sql" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=azure" height="60" alt="azure logo" />
+
+  <!-- Cloud / Data Engineering -->
+  <img src="https://skillicons.dev/icons?i=azure" height="55" alt="azure" />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=github" height="60" alt="github logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=docker" height="60" alt="docker logo" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=linux" height="60" alt="linux logo" />
+  <img src="https://skillicons.dev/icons?i=github" height="55" alt="github" />
 </div>
 
 ###
 
 <p align="center">
-Building end-to-end data pipelines using Azure Data Factory, Databricks, PySpark, and Delta Lake.<br>
-Interested in scalable ETL systems, data quality, and production-style data workflows.
+<b>Hands-on experience with:</b><br>
+Azure Data Factory · Databricks · PySpark · Delta Lake · Medallion Architecture
 </p>
 
 ###
 
 <div align="center">
   <a href="https://www.linkedin.com/in/abhiram-bangaru-569b67247/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge" height="25" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"/>
   </a>
   <a href="mailto:abhiram162005@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Email&logo=gmail&color=D14836&logoColor=white&style=for-the-badge" height="25" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25"/>
   </a>
   <a href="https://github.com/abhiram-120">
-    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&color=181717&logoColor=white&style=for-the-badge" height="25" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="25"/>
   </a>
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=abhiram-120&theme=dracula&hide_border=false&border_radius=5" height="150" />
+  <img src="https://streak-stats.demolab.com?user=abhiram-120&theme=dracula&hide_border=false&border_radius=5" height="150"/>
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=abhiram-120&theme=dracula&column=4&margin-w=8&margin-h=8" height="150" />
+  <img src="https://github-profile-trophy.vercel.app/?username=abhiram-120&theme=dracula&column=3&margin-w=8&margin-h=8" height="120"/>
 </div>
-
-###
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abhiram-120/abhiram-120/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abhiram-120/abhiram-120/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abhiram-120/abhiram-120/output/pacman-contribution-graph.svg">
-</picture>
