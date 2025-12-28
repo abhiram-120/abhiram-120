@@ -1,4 +1,4 @@
-<h1 align="center">Hey 👋 What's up?</h1>
+<h1 align="center">Hey  What's up?</h1>
 
 <h3 align="center">
 I'm Abhiram — Data Engineering Intern aspirant
