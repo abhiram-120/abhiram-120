@@ -1,7 +1,7 @@
 <h1 align="center">Hey  What's up?</h1>
 
 <h3 align="center">
-I'm Abhiram — Data Engineering 
+I'm Abhiram — Data Engineer
 </h3>
 
 <p align="center">
