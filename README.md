@@ -1,15 +1,14 @@
 <h1 align="center">Hey  What's up?</h1>
 
 <h3 align="center">
-I'm Abhiram — Data Engineer
+I'm Abhiram — ai Data Engineer and fullstack devoloper
 </h3>
 
 <p align="center">
 I’m a final-year B.Tech student who enjoys building <b>end-to-end data pipelines</b> 
 and understanding how real companies move, clean, and trust their data.
 <br><br>
-I’m especially interested in <b>ETL design, data quality, and production-style workflows</b> 
-rather than just writing scripts.
+
 </p>
 
 ###
