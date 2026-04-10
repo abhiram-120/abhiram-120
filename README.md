@@ -5,7 +5,7 @@ I'm Abhiram — ai Data Engineer and fullstack devoloper
 </h3>
 
 <p align="center">
-I’m a final-year B.Tech student who enjoys building <b>end-to-end data pipelines</b> 
+i enjoy building <b>end-to-end data pipelines</b> 
 and understanding how real companies move, clean, and trust their data.
 <br><br>
 
