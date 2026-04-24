@@ -1,7 +1,7 @@
 <h1 align="center">Hey  What's up?</h1>
 
 <h3 align="center">
-I'm Abhiram  ai Data Engineer and fullstack devoloper
+I'm Abhiram  forward deployed ai engineer
 </h3>
 
 <p align="center">
