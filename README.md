@@ -1,12 +1,12 @@
 <h1 align="center">Wassup?</h1>
 
 <h3 align="center">
-I'm Abhiram  forward deployed ai engineer
+I'm Abhiram  
 </h3>
 
 <p align="center">
-i enjoy building <b>end-to-end data pipelines</b> 
-and understanding how real companies move, clean, and trust their data.
+i enjoy building <b>stuff that people actually use </b> 
+and understanding how real companies move
 <br><br>
 
 </p>
