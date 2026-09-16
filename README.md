@@ -45,7 +45,17 @@ Azure Data Factory · Databricks · PySpark · Delta Lake · Medallion Architect
   <a href="https://github.com/abhiram-120">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="25"/>
   </a>
+  <a href="https://github.com/aabbhhii-112200">
+    <img src="https://img.shields.io/badge/Work_GitHub-aabbhhii--112200-238636?style=for-the-badge&logo=github&logoColor=white" height="25"/>
+  </a>
 </div>
+
+###
+
+<p align="center">
+Current professional work is in a private GitHub org, so it lives on my work account:<br>
+<a href="https://github.com/aabbhhii-112200"><b>github.com/aabbhhii-112200</b></a>
+</p>
 
 ###
 
