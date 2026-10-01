@@ -4,10 +4,27 @@
 I'm Abhiram  
 </h3>
 
-<p align="center">
-i enjoy building <b>stuff that people actually use </b> 
-and understanding how real companies move
-<br><br>
+# Hi, I'm Abhiram 👋
+
+**AI Backend Engineer** building production systems where backend meets AI.
+
+- 🔧 Currently at **Tulkka** (Israel-based EdTech startup), owning backend for a live platform with 20K+ users
+- 🤖 Deployed ML models as real-time APIs (FastAPI, <200ms inference)
+- 🧠 Building with LLMs and AI agents: LangChain, LangGraph, CrewAI, n8n, Gemini
+- 🌍 Worked remotely with teams in Israel and Spain, comfortable with US time-zone overlap
+
+### Tech I use
+**Backend:** Node.js · Python · FastAPI · REST APIs · Webhooks
+**Data:** PostgreSQL · MySQL · Azure · Airflow
+**AI:** LLM APIs · AI Agents · RAG · LightGBM
+**Frontend:** React · Next.js
+**Tools:** Docker · Git · Claude · Cursor
+
+### Featured projects
+- **Lacrimosa:** multi-agent AI framework with 50+ agent roles (Google AI Hackathon 2025, Top 5%)
+- **Azure Data Platform:** end-to-end Bronze/Silver/Gold pipeline with CI/CD
+
+📫 abhiram162005@gmail.com · [LinkedIn](https://linkedin.com/in/abhiram-bangaru-569b67247)
 
 </p>
 
@@ -28,10 +45,6 @@ and understanding how real companies move
 
 ###
 
-<p align="center">
-<b>Hands-on experience and learning:</b><br>
-Azure Data Factory · Databricks · PySpark · Delta Lake · Medallion Architecture
-</p>
 
 ###
 
