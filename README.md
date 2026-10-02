@@ -1,83 +1,62 @@
-<h1 align="center">Wassup?</h1>
+# Abhiram Bangaru
 
-<h3 align="center">
-I'm Abhiram  
-</h3>
+**AI Agent Quality Engineer** focused on testing tool-calling agents, guardrails, and LLM evaluation.
 
-# Hi, I'm Abhiram 👋
+Hyderabad, India · Open to roles in agent QA / AI testing
 
-**AI Backend Engineer** building production systems where backend meets AI.
+---
 
-- 🔧 Currently at **Tulkka** (Israel-based EdTech startup), owning backend for a live platform with 20K+ users
-- 🤖 Deployed ML models as real-time APIs (FastAPI, <200ms inference)
-- 🧠 Building with LLMs and AI agents: LangChain, LangGraph, CrewAI, n8n, Gemini
-- 🌍 Worked remotely with teams in Israel and Spain, comfortable with US time-zone overlap
+## What I test
 
-### Tech I use
-**Backend:** Node.js · Python · FastAPI · REST APIs · Webhooks
-**Data:** PostgreSQL · MySQL · Azure · Airflow
-**AI:** LLM APIs · AI Agents · RAG · LightGBM
-**Frontend:** React · Next.js
-**Tools:** Docker · Git · Claude · Cursor
+- **Agent behaviour** - tool selection, tool arguments, workflow paths, retries, and failure handling
+- **Guardrails & policy** - ownership checks, refund / permission limits, unsafe actions blocked in code (not only in prompts)
+- **Adversarial cases** - prompt injection (direct + indirect), social engineering, hallucinated status after tool failures
+- **Evaluation harnesses** - deterministic checks first, LLM-as-judge second, pass rates across prompt versions
+- **Traces** - SQLite step logs so a failing case can be replayed tool-call by tool-call
 
-### Featured projects
-- **Lacrimosa:** multi-agent AI framework with 50+ agent roles (Google AI Hackathon 2025, Top 5%)
-- **Azure Data Platform:** end-to-end Bronze/Silver/Gold pipeline with CI/CD
+Stack I use day to day: **Python**, **Pytest**, APIs/JSON, traces/logs, CI (GitHub Actions). Comfortable with MCP / tool-calling agent loops.
 
-📫 abhiram162005@gmail.com · [LinkedIn](https://linkedin.com/in/abhiram-bangaru-569b67247)
+---
 
-</p>
+## Featured project
 
-###
+### [agentprobe](https://github.com/abhiram-120/agentprobe)
 
-<div align="center">
-  <!-- Core languages -->
-  <img src="https://skillicons.dev/icons?i=python" height="55" alt="python" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=sql" height="55" alt="sql" />
-  <img width="12" />
+Testing and evaluation harness for a ShopKart support agent (lookup, refunds, FAQ, escalate) plus a suite that tries to break it.
 
-  <!-- Cloud / Data Engineering -->
-  <img src="https://skillicons.dev/icons?i=azure" height="55" alt="azure" />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=github" height="55" alt="github" />
-</div>
+| Area | Covered |
+|---|---|
+| Tool selection | right tool + args |
+| Guardrails | cross-customer data, refund limits, prompt leak canary |
+| Prompt injection | ORD-1004 notes (indirect), fake `[SYSTEM]` admin |
+| Tool failures | timeout / malformed / empty / wrong schema |
+| Eval | v1 vs v2 prompts, markdown report |
 
-###
+**Latest Groq run** (`openai/gpt-oss-20b`): v1 **19/20 (95%)** · v2 **20/20 (100%)**.  
+Only v1 failure: indirect injection on ORD-1004; hardened prompt fixed it.
 
+```bash
+pytest -m "not llm"                 # unit / policy tests
+python -m evals.run_evals --prompts v1 v2
+python scripts/show_trace.py <run_id>
+```
 
-###
+---
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/abhiram-bangaru-569b67247/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25"/>
-  </a>
-  <a href="mailto:abhiram162005@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="25"/>
-  </a>
-  <a href="https://github.com/abhiram-120">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="25"/>
-  </a>
-  <a href="https://github.com/aabbhhii-112200">
-    <img src="https://img.shields.io/badge/Work_GitHub-aabbhhii--112200-238636?style=for-the-badge&logo=github&logoColor=white" height="25"/>
-  </a>
-</div>
+## How I think about agent QA
 
-###
+1. Business rules belong in the **tool layer**, not only the system prompt.
+2. Deterministic checks (tool called?, refund state?, leak?) run **before** an LLM judge.
+3. Prompt changes need measured regressions (pass rates), not vibes.
+4. If a test fails, the first question is: show me the **trace**.
 
-<p align="center">
-Current professional work is in a private GitHub org, so it lives on my work account:<br>
-<a href="https://github.com/aabbhhii-112200"><b>github.com/aabbhhii-112200</b></a>
-</p>
+---
 
-###
+## Also exploring
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=abhiram-120&theme=dracula&hide_border=false&border_radius=5" height="150"/>
-</div>
+- Bitcoin anomaly detection project (data / ML workflow)
+- Prior API and product work (chatbots, support tooling)
 
-###
+---
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=abhiram-120&theme=dracula&column=3&margin-w=8&margin-h=8" height="120"/>
-</div>
+Open to **AI Agent Quality Engineer** roles (agent workflows, eval suites, guardrails, API testing).
