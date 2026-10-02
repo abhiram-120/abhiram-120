@@ -2,14 +2,14 @@
 
 **AI Agent Quality Engineer** focused on testing tool-calling agents, guardrails, and LLM evaluation.
 
-Hyderabad, India · Open to roles in agent QA / AI testing
+Hyderabad, India - Open to roles in agent QA / AI testing
 
 ---
 
 ## What I test
 
 - **Agent behaviour** - tool selection, tool arguments, workflow paths, retries, and failure handling
-- **Guardrails & policy** - ownership checks, refund / permission limits, unsafe actions blocked in code (not only in prompts)
+- **Guardrails and policy** - ownership checks, refund / permission limits, unsafe actions blocked in code (not only in prompts)
 - **Adversarial cases** - prompt injection (direct + indirect), social engineering, hallucinated status after tool failures
 - **Evaluation harnesses** - deterministic checks first, LLM-as-judge second, pass rates across prompt versions
 - **Traces** - SQLite step logs so a failing case can be replayed tool-call by tool-call
@@ -32,7 +32,7 @@ Testing and evaluation harness for a ShopKart support agent (lookup, refunds, FA
 | Tool failures | timeout / malformed / empty / wrong schema |
 | Eval | v1 vs v2 prompts, markdown report |
 
-**Latest Groq run** (`openai/gpt-oss-20b`): v1 **19/20 (95%)** · v2 **20/20 (100%)**.  
+**Latest Groq run** (`openai/gpt-oss-20b`): v1 **19/20 (95%)** - v2 **20/20 (100%)**.  
 Only v1 failure: indirect injection on ORD-1004; hardened prompt fixed it.
 
 ```bash
